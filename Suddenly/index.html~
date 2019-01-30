@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+<body>
+<div id="menu">
+<div id="Settings">
+	<div id="Settings_p0">
+	<div id="Settings_p1">
+<div id="Accessories">
+	<div id="Accessories_p0">
+	<div id="Accessories_p1">
+<div id="Development">
+	<div id="Development_p0">
+<div id="Education">
+	<div id="Education_p0">
+<div id="Games">
+	<div id="Games_p0">
+<div id="Graphics">
+	<div id="Graphics_p0">
+<div id="Multimedia">
+	<div id="Multimedia_p0">
+<div id="Network">
+	<div id="Network_p0">
+<div id="Office">
+	<div id="Office_p0">
+<div id="System">
+	<div id="System_p0">
+	<div id="System_p1">
+<div id="Other">
+		<div id="wraper">
+			<div id="contextual"><iframe id="iframe" src="gptbico"></iframe></div>
+			<div id="menu-wraper">
+		<ul id="menu-ul">
+			<li>
+				<a href="#Settings">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/preferences-desktop.png"/><figcaption>Paramètres</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#Accessories">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/applications-accessories.png"/><figcaption>Accessoires</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#Development">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/applications-development.png"/><figcaption>Développement</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#Education">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/applications-science.png"/><figcaption>Éducation</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#Games">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/applications-games.png"/><figcaption>Jeux</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#Graphics">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/applications-graphics.png"/><figcaption>Infographie</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#Multimedia">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/applications-multimedia.png"/><figcaption>Multimédia</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#Network">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/applications-internet.png"/><figcaption>Internet</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#Office">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/applications-office.png"/><figcaption>Bureautique</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#System">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/applications-system.png"/><figcaption>Système</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#Other">
+					<figure>
+						<img width="30" src="/usr/share/icons/elementary-xfce/categories/48/applications-other.png"/><figcaption>Autres</figcaption>
+					</figure>
+				</a>
+			</li>
+		</ul>
+		</div>
+		<div id="background">
+			<div id="menu-items">
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/pixmaps/advert-block.png"><figcaption><p class="appName">Advert Blocker</p></figcaption></figure><p class="appComment">Block adverts system wide</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/display.im6.svg"><figcaption><p class="appName">ARandR</p></figcaption></figure><p class="appComment">null</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Numix-Circle/48/apps/blueman-device.svg"><figcaption><p class="appName">Bluetooth Adapters</p></figcaption></figure><p class="appComment">Set Bluetooth Adapter Properties</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/blueman.png"><figcaption><p class="appName">Bluetooth Manager</p></figcaption></figure><p class="appComment">Blueman Bluetooth Manager</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-desktop-default-applications.png"><figcaption><p class="appName">Applications favorites</p></figcaption></figure><p class="appComment">Applications favorites (navigateur Web, client de messagerie et émulateur de terminal)</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-desktop-locale.png"><figcaption><p class="appName">Language Support</p></figcaption></figure><p class="appComment">Configure multiple and native language support on your system</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/gufw.svg"><figcaption><p class="appName">Firewall Configuration</p></figcaption></figure><p class="appComment">An easy way to configure your firewall</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Peppermix/48x48/apps/input-keyboard.png"><figcaption><p class="appName">Méthode d'entrée</p></figcaption></figure><p class="appComment">Set Keyboard Input Method</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/lightdm-settings.svg"><figcaption><p class="appName">Écran de connexion</p></figcaption></figure><p class="appComment">Configuration de l'écran de connexion</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-desktop-theme.png"><figcaption><p class="appName">Personnaliser l'apparence</p></figcaption></figure><p class="appComment">Personnaliser l'apparence du bureau et des applications</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/xfwm4.png"><figcaption><p class="appName">Default applications for LXSession</p></figcaption></figure><p class="appComment">Change the default applications on LXDE</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/menulibre.png"><figcaption><p class="appName">Menu Editor</p></figcaption></figure><p class="appComment">Add or remove applications from the menu</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/system-software-update.png"><figcaption><p class="appName">Gestionnaire de mises à jour</p></figcaption></figure><p class="appComment">Afficher et installer les mises à jour disponibles</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/mintinstall.svg"><figcaption><p class="appName">Gestionnaire de logiciels</p></figcaption></figure><p class="appComment">Installer de nouvelles applications</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-system-network.png"><figcaption><p class="appName">Network</p></figcaption></figure><p class="appComment">Configure network devices and connections</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-system-network.png"><figcaption><p class="appName">Network Connections</p></figcaption></figure><p class="appComment">Manage and change your network connection settings</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Numix-Circle/48/apps/numix-folders.svg"><figcaption><p class="appName">Numix Folders</p></figcaption></figure><p class="appComment">Alternate folders for use with our base icon theme.</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/gnome-disks.svg"><figcaption><p class="appName">Disks</p></figcaption></figure><p class="appComment">Manage Drives and Media</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/xfce4-panel.png"><figcaption><p class="appName">Tableau de bord</p></figcaption></figure><p class="appComment">Personnaliser le tableau de bord</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/peppermint-control-center.svg"><figcaption><p class="appName">Peppermint Control Center</p></figcaption></figure><p class="appComment">Window Manager and Input Settings</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/firefox.png"><figcaption><p class="appName">Firefox Theme Lock</p></figcaption></figure><p class="appComment">Force Firefox to use a light theme</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-system-network.png"><figcaption><p class="appName">Peppermint Proxy Configuration</p></figcaption></figure><p class="appComment">Manage your system wide proxy settings</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/peppermint-control-center.svg"><figcaption><p class="appName">Peppermint Settings Panel</p></figcaption></figure><p class="appComment">Manage your system settings</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/thunderbird.png"><figcaption><p class="appName">Thunderbird Theme Lock</p></figcaption></figure><p class="appComment">Force Thunderbird to use a light theme</p></li>
+							</ul>
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/places/48/folder-remote.png"><figcaption><p class="appName">Shared Folders</p></figcaption></figure><p class="appComment">Configure which folders are available for your network neighborhood</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/jockey.png"><figcaption><p class="appName">Additional Drivers</p></figcaption></figure><p class="appComment">Configure third-party and proprietary drivers</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/software-properties.png"><figcaption><p class="appName">Software & Updates</p></figcaption></figure><p class="appComment">Configure the sources for installable software and updates</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/synaptic.png"><figcaption><p class="appName">Synaptic Package Manager</p></figcaption></figure><p class="appComment">Install, remove and upgrade software packages</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Peppermix/48x48/apps/printer.png"><figcaption><p class="appName">Printers</p></figcaption></figure><p class="appComment">Configure printers</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Peppermix/48x48/apps/system-config-samba.png"><figcaption><p class="appName">Samba</p></figcaption></figure><p class="appComment">Créer, modifier et supprimer les partages samba</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/time-admin.png"><figcaption><p class="appName">Time and Date</p></figcaption></figure><p class="appComment">Change system time, date, and timezone</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/config-users.png"><figcaption><p class="appName">Users and Groups</p></figcaption></figure><p class="appComment">Add or remove users and groups</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Peppermix/48x48/apps/video-display.png"><figcaption><p class="appName">Affichage</p></figcaption></figure><p class="appComment">Configurer les paramètres et la disposition des écrans</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-desktop-keyboard.png"><figcaption><p class="appName">Clavier</p></figcaption></figure><p class="appComment">Éditer les paramètres du clavier et les raccourcis des applications</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-desktop-peripherals.png"><figcaption><p class="appName">Souris et pavé tactile</p></figcaption></figure><p class="appComment">Configurer le comportement et l’apparence du dispositif de pointage</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-desktop.png"><figcaption><p class="appName">Gestionnaire de paramètres</p></figcaption></figure><p class="appComment">Gestionnaire graphique de paramètres pour Xfce 4</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-desktop-theme.png"><figcaption><p class="appName">Apparence</p></figcaption></figure><p class="appComment">Personnaliser l’apparence du bureau</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/xfwm4.png"><figcaption><p class="appName">Gestionnaire de fenêtres</p></figcaption></figure><p class="appComment">Configurer le comportement et les raccourcis des fenêtres</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/wmtweaks.png"><figcaption><p class="appName">Peaufinage des fenêtres</p></figcaption></figure><p class="appComment">Ajuster le comportement des fenêtres et leurs effets</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/xfce4-workspaces.png"><figcaption><p class="appName">Espaces de travail</p></figcaption></figure><p class="appComment">Configurer la disposition, les noms et les marges</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-desktop-accessibility.png"><figcaption><p class="appName">Accessibilité</p></figcaption></figure><p class="appComment">Améliorer l’accessibilité du clavier et de la souris</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/mimes/48/application-x-executable.png"><figcaption><p class="appName">Éditeur de type MIME</p></figcaption></figure><p class="appComment">Associer les applications avec les types MIME</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/xfce4-notifyd.png"><figcaption><p class="appName">Notifications</p></figcaption></figure><p class="appComment">Personnaliser la manière dont les notifications apparaissent sur votre écran</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/xfce4-power-manager-settings.png"><figcaption><p class="appName">Gestionnaire d’alimentation</p></figcaption></figure><p class="appComment">Paramètres du gestionnaire d’alimentation Xfce</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/preferences-system.svg"><figcaption><p class="appName">Éditeur de paramètres</p></figcaption></figure><p class="appComment">Éditeur graphique des paramètres Xfconf</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/xfce4-panel.png"><figcaption><p class="appName">Sélecteur de tableau de bord</p></figcaption></figure><p class="appComment">Sauvegarde et restaure votre configuration du tableau de bord</p></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+						<li><a id="Settings_b0" href="#Settings_p0"></a></li>
+						<li><a id="Settings_b1" href="#Settings_p1"></a></li>
+					</ul>
+				</div>
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/system-search.svg"><figcaption><p class="appName">Search for Files...</p></figcaption></figure><p class="appComment">Locate documents and folders on this computer by name or content</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/system-file-manager.png"><figcaption><p class="appName">Fichiers</p></figcaption></figure><p class="appComment">Accéder aux fichiers et les organiser</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/places/48/folder.png"><figcaption><p class="appName">Open a New Window</p></figcaption></figure><p class="appComment">Open your personal folder</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/system-file-manager.png"><figcaption><p class="appName">Corbeille</p></figcaption></figure><p class="appComment">Accéder aux fichiers et les organiser</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/help-browser.png"><figcaption><p class="appName">Help</p></figcaption></figure><p class="appComment">Get help with GNOME</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/hicolor/48x48/apps/compton.png"><figcaption><p class="appName">compton</p></figcaption></figure><p class="appComment">A X compositor</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/system-file-manager.png"><figcaption><p class="appName">Gestionnaire de fichiers</p></figcaption></figure><p class="appComment">Parcourir le système de fichiers</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/utilities-terminal.png"><figcaption><p class="appName">Émulateur de Terminal</p></figcaption></figure><p class="appComment">Utiliser la ligne de commande</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/file-roller.png"><figcaption><p class="appName">Archive Manager</p></figcaption></figure><p class="appComment">Create and modify an archive</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/system-search.svg"><figcaption><p class="appName">Search for Files...</p></figcaption></figure><p class="appComment">Locate documents and folders on this computer by name or content</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/accessories-character-map.png"><figcaption><p class="appName">Character Map</p></figcaption></figure><p class="appComment">Insert special characters into documents</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/accessories-calculator.png"><figcaption><p class="appName">Calculatrice</p></figcaption></figure><p class="appComment">Effectue des calculs arithmétiques, scientifiques ou financiers</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/menulibre.png"><figcaption><p class="appName">Menu Editor</p></figcaption></figure><p class="appComment">Add or remove applications from the menu</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/system-file-manager.png"><figcaption><p class="appName">Fichiers</p></figcaption></figure><p class="appComment">Accéder aux fichiers et les organiser</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/system-file-manager.png"><figcaption><p class="appName">Corbeille</p></figcaption></figure><p class="appComment">Accéder aux fichiers et les organiser</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/wallpaper.png"><figcaption><p class="appName">Wallpapers</p></figcaption></figure><p class="appComment">Browse and set desktop backgrounds</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/gnome-disks.svg"><figcaption><p class="appName">Disks</p></figcaption></figure><p class="appComment">Manage Drives and Media</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/file-roller.png"><figcaption><p class="appName">Archive Manager</p></figcaption></figure><p class="appComment">Create and modify an archive</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Peppermix/48x48/apps/camera.png"><figcaption><p class="appName">Screenshot (scrothelper)</p></figcaption></figure><p class="appComment">Take a screenshot</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/lxterminal.svg"><figcaption><p class="appName">Terminal</p></figcaption></figure><p class="appComment">Use the command line</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/virtualbox.png"><figcaption><p class="appName">Open Oracle VM Manager</p></figcaption></figure><p class="appComment">Run several virtual systems on a single host computer</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/accessories-text-editor.png"><figcaption><p class="appName">Éditeur de texte</p></figcaption></figure><p class="appComment">Éditer des fichiers texte</p></li>
+								<li><figure><img width="48" height="48" src="edit-find"><figcaption><p class="appName">Liste des applications</p></figcaption></figure><p class="appComment">Rechercher et lancer des applications installées sur votre système</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Peppermix/48x48/apps/gtk-execute.png"><figcaption><p class="appName">Lancer le programme...</p></figcaption></figure><p class="appComment">Lancer un programme</p></li>
+							</ul>
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/applets-screenshooter.png"><figcaption><p class="appName">Capture d’écran</p></figcaption></figure><p class="appComment">Prenez des captures d’écran d’une zone, de la fenêtre active ou de l’écran tout entier</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/utilities-system-monitor.png"><figcaption><p class="appName">Gestionnaire de tâches</p></figcaption></figure><p class="appComment">Gestionnaire de tâches simple d’utilisation</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/xviewer.svg"><figcaption><p class="appName">Image Viewer</p></figcaption></figure><p class="appComment">Browse and rotate images</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/hicolor/48x48/apps/yad.png"><figcaption><p class="appName">Navigateur d'Icônes</p></figcaption></figure><p class="appComment">Parcourir les icônes du thème GTK</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/help-browser.png"><figcaption><p class="appName">Help</p></figcaption></figure><p class="appComment">Get help with GNOME</p></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+						<li><a id="Accessories_b0" href="#Accessories_p0"></a></li>
+						<li><a id="Accessories_b1" href="#Accessories_p1"></a></li>
+					</ul>
+				</div>
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/bluefish.svg"><figcaption><p class="appName">Éditeur Bluefish</p></figcaption></figure><p class="appComment">Éditeur de développement web</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/pixmaps/python2.7.xpm"><figcaption><p class="appName">Python (v2.7)</p></figcaption></figure><p class="appComment">Python Interpreter (v2.7)</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/pixmaps/python3.6.xpm"><figcaption><p class="appName">Python (v3.6)</p></figcaption></figure><p class="appComment">Python Interpreter (v3.6)</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/sublime-text.svg"><figcaption><p class="appName">New File</p></figcaption></figure><p class="appComment">Sophisticated text editor for code, markup and prose</p></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+						<li><a id="Development_b0" href="#Development_p0"></a></li>
+					</ul>
+				</div>
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+							<ul class="page-ul">
+							</ul>
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+						<li><a id="Education_b0" href="#Education_p0"></a></li>
+					</ul>
+				</div>
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+							<ul class="page-ul">
+							</ul>
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+						<li><a id="Games_b0" href="#Games_p0"></a></li>
+					</ul>
+				</div>
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/document-print-preview.svg"><figcaption><p class="appName">Print Preview</p></figcaption></figure><p class="appComment">Preview before printing</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/evince.png"><figcaption><p class="appName">Document Viewer</p></figcaption></figure><p class="appComment">View multi-page documents</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Peppermix/48x48/apps/scanner.png"><figcaption><p class="appName">Simple Scan</p></figcaption></figure><p class="appComment">Scan Documents</p></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+						<li><a id="Graphics_b0" href="#Graphics_p0"></a></li>
+					</ul>
+				</div>
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/multimedia-volume-control.png"><figcaption><p class="appName">Contrôle du volume PulseAudio</p></figcaption></figure><p class="appComment">Régler le niveau du volume</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/pixmaps/pulseaudio-equalizer.svg"><figcaption><p class="appName">PulseAudio Equalizer</p></figcaption></figure><p class="appComment">PulseAudio LADSPA interface using MBEQ Multiband EQ plugin</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/guvcview.svg"><figcaption><p class="appName">guvcview</p></figcaption></figure><p class="appComment">Logiciel de visualisation et de capture vidéo pour le pilote uvc Linux</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/xplayer.svg"><figcaption><p class="appName">Fullscreen</p></figcaption></figure><p class="appComment">Play movies</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/guvcview.svg"><figcaption><p class="appName">guvcview</p></figcaption></figure><p class="appComment">Logiciel de visualisation et de capture vidéo pour le pilote uvc Linux</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/multimedia-volume-control.png"><figcaption><p class="appName">Contrôle du volume PulseAudio</p></figcaption></figure><p class="appComment">Régler le niveau du volume</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/pixmaps/pulseaudio-equalizer.svg"><figcaption><p class="appName">PulseAudio Equalizer</p></figcaption></figure><p class="appComment">PulseAudio LADSPA interface using MBEQ Multiband EQ plugin</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/xplayer.svg"><figcaption><p class="appName">Fullscreen</p></figcaption></figure><p class="appComment">Play movies</p></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+						<li><a id="Multimedia_b0" href="#Multimedia_p0"></a></li>
+					</ul>
+				</div>
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/dropbox.svg"><figcaption><p class="appName">Dropbox</p></figcaption></figure><p class="appComment">Sync your files across computers and to the web</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Adwaita/48x48/emblems/emblem-mail.png"><figcaption><p class="appName">Client de messagerie</p></figcaption></figure><p class="appComment">Lire ses mails</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/web-browser.png"><figcaption><p class="appName">Navigateur Web</p></figcaption></figure><p class="appComment">Naviguer sur le web</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/firefox.png"><figcaption><p class="appName">Ouvrir une nouvelle fenêtre de navigation privée</p></figcaption></figure><p class="appComment">Naviguer sur le Web</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/ice.svg"><figcaption><p class="appName">Ice</p></figcaption></figure><p class="appComment">Desktop integration for webapps</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/transmission.png"><figcaption><p class="appName">Start BitTorrent Client Minimized</p></figcaption></figure><p class="appComment">Download and share files over BitTorrent</p></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+						<li><a id="Network_b0" href="#Network_p0"></a></li>
+					</ul>
+				</div>
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/document-print-preview.svg"><figcaption><p class="appName">Print Preview</p></figcaption></figure><p class="appComment">Preview before printing</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/evince.png"><figcaption><p class="appName">Document Viewer</p></figcaption></figure><p class="appComment">View multi-page documents</p></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+						<li><a id="Office_b0" href="#Office_p0"></a></li>
+					</ul>
+				</div>
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/virtualbox.png"><figcaption><p class="appName">Open Oracle VM Manager</p></figcaption></figure><p class="appComment">Run several virtual systems on a single host computer</p></li>
+								<li><figure><img width="48" height="48" src="ca.desrt.dconf-editor"><figcaption><p class="appName">dconf Editor</p></figcaption></figure><p class="appComment">Directly edit your entire configuration database</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/xterm-color_48x48.svg"><figcaption><p class="appName">UXTerm</p></figcaption></figure><p class="appComment">standard terminal emulator for the X window system</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/xterm-color_48x48.svg"><figcaption><p class="appName">XTerm</p></figcaption></figure><p class="appComment">standard terminal emulator for the X window system</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/gdebi.png"><figcaption><p class="appName">GDebi Package Installer</p></figcaption></figure><p class="appComment">Install and view software packages</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/gksu-root-terminal.png"><figcaption><p class="appName">Root Terminal</p></figcaption></figure><p class="appComment">Opens a terminal as the root user, using gksu to ask for the password</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/system-software-install.png"><figcaption><p class="appName">Software Install</p></figcaption></figure><p class="appComment">Install selected software on the system</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/pixmaps/hplj1020_icon.png"><figcaption><p class="appName">Reactivate HP LaserJet 1018/1020 after reloading paper</p></figcaption></figure><p class="appComment">Click the button in this program when your printer ran out of paper and you have refilled the paper</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/htop.png"><figcaption><p class="appName">Htop</p></figcaption></figure><p class="appComment">Affiche les processus système</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/lightdm-settings.svg"><figcaption><p class="appName">Écran de connexion</p></figcaption></figure><p class="appComment">Configuration de l'écran de connexion</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/system-software-update.png"><figcaption><p class="appName">Gestionnaire de mises à jour</p></figcaption></figure><p class="appComment">Afficher et installer les mises à jour disponibles</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/software-properties-mint.svg"><figcaption><p class="appName">Gestionnaire de logiciels</p></figcaption></figure><p class="appComment">Installer de nouvelles applications</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/mintinstall.svg"><figcaption><p class="appName">Gestionnaire de logiciels</p></figcaption></figure><p class="appComment">Installer de nouvelles applications</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/usb-creator.png"><figcaption><p class="appName">Formateur de clé USB</p></figcaption></figure><p class="appComment">Formater une clé USB</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/usb-creator.png"><figcaption><p class="appName">Créateur de clé USB</p></figcaption></figure><p class="appComment">Créer une clé USB bootable</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/preferences-system-network.png"><figcaption><p class="appName">Network</p></figcaption></figure><p class="appComment">Configure network devices and connections</p></li>
+								<li><figure><img width="48" height="48" src="org.gnome.Software"><figcaption><p class="appName">Banner Designer</p></figcaption></figure><p class="appComment">Design the featured banners for GNOME Software</p></li>
+								<li><figure><img width="48" height="48" src="org.gnome.Software"><figcaption><p class="appName">Software</p></figcaption></figure><p class="appComment">Add, remove or update software on this computer</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Pepirus/64x64/apps/system-lock-screen.svg"><figcaption><p class="appName">ScreenLock</p></figcaption></figure><p class="appComment">Lock your screen</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Peppermix/48x48/apps/dialog-information.png"><figcaption><p class="appName">Peppermint System Info</p></figcaption></figure><p class="appComment">null</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/places/48/folder-remote.png"><figcaption><p class="appName">Shared Folders</p></figcaption></figure><p class="appComment">Configure which folders are available for your network neighborhood</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/synaptic.png"><figcaption><p class="appName">Synaptic Package Manager</p></figcaption></figure><p class="appComment">Install, remove and upgrade software packages</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Peppermix/48x48/apps/printer.png"><figcaption><p class="appName">Printers</p></figcaption></figure><p class="appComment">Configure printers</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/Peppermix/48x48/apps/system-config-samba.png"><figcaption><p class="appName">Samba</p></figcaption></figure><p class="appComment">Créer, modifier et supprimer les partages samba</p></li>
+							</ul>
+							<ul class="page-ul">
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/time-admin.png"><figcaption><p class="appName">Time and Date</p></figcaption></figure><p class="appComment">Change system time, date, and timezone</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/config-users.png"><figcaption><p class="appName">Users and Groups</p></figcaption></figure><p class="appComment">Add or remove users and groups</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/virtualbox.png"><figcaption><p class="appName">Open Oracle VM Manager</p></figcaption></figure><p class="appComment">Run several virtual systems on a single host computer</p></li>
+								<li><figure><img width="48" height="48" src="/usr/share/icons/elementary-xfce/apps/48/utilities-system-monitor.png"><figcaption><p class="appName">Gestionnaire de tâches</p></figcaption></figure><p class="appComment">Gestionnaire de tâches simple d’utilisation</p></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+						<li><a id="System_b0" href="#System_p0"></a></li>
+						<li><a id="System_b1" href="#System_p1"></a></li>
+					</ul>
+				</div>
+				<div class="menu-item">
+					<div class="background-page">
+						<div class="pages">
+						</div>
+					</div>
+					<ul class="menu-page-ul">
+					</ul>
+				</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body
+></html
+>

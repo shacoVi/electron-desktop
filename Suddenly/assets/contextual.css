@@ -1,0 +1,113 @@
+
+#contextual{
+	width:0%;
+	transition:width 0.50s ease-out;
+	height:600px;
+	left:0%;
+	float:left;
+	 display: inline-block;
+}
+
+#contextual-fs-icon{
+	position:relative;
+	float:right;
+	padding:4%;
+	margin-top:50%;
+	background-color:lightblue;
+	filter: blur(1px);
+	border-radius:50% 0% 50% 50%;
+	transform: rotate(45deg);
+	transition:opacity 0.5s ease-out;
+	opacity:1;
+}
+
+#contextual-ls-icon{
+	position:relative;
+	float:right;
+	padding:2%;
+	top:50%;
+	right:2%;
+	background-color:lightblue;
+	filter: blur(1px);
+	border-radius:50% 0% 50% 50%;
+	transform: rotate(-125deg);
+	display:none;
+	transition:opacity 0.5s ease-out;
+	opacity:0;
+}
+
+#contextual-fs:target #contextual-fs-icon{
+	display:none;
+	opacity:0;
+}
+
+#contextual-fs:target #contextual-ls-icon{
+	display:block;
+	opacity:1;
+}
+
+#contextual-fs:target #contextual{
+	width:100%;
+}
+
+#contextual-fs:target #background {
+	left:10%;
+	width:6%;
+}
+
+#contextual-fs:target #iframe{
+	display:block;
+	margin:1%;
+	width:90%;
+}
+
+#wraper:target #iframe{
+	display:block;
+}
+
+#wraper:target #menu-wraper{
+	width:60%;
+}
+
+
+
+#wraper:target #contextual{
+	width:40%;
+}
+
+#contextual-ls:target #contextual-fs-icon{
+	display:block;
+	opacity:1;
+}
+
+#contextual-ls:target #contextual-ls-icon{
+	display:none;
+	opacity:0;
+
+}
+
+#contextual-ls:target #contextual{
+	width:40%;
+}
+
+#contextual-ls:target #background {
+	left:4%;
+	width:6%;
+}
+
+#contextual-ls:target #menu-wraper {
+	width:60%;
+}
+
+#contextual-ls:target #iframe{
+	display:block;
+}
+
+#iframe{
+	display:none;
+	float:left;
+	margin:5%;
+	width:80%;
+	height:90%;
+	border:none;
+}

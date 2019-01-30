@@ -1,0 +1,16 @@
+{
+  "name": "suddenly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node *",
+    "start": "node server.js"
+  },
+  "author": "shaco",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}

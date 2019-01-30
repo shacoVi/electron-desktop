@@ -1,0 +1,220 @@
+
+body{ margin:0;padding:0;overflow:hidden;color:#777;}
+
+#menu{
+	position:absolute;
+	display:block;
+	width:1000%;
+	height:100%;
+}
+
+#menu-wraper{
+	width:10%;
+	 text-align: center;
+}
+
+#background{
+	position:absolute;
+	top:100px;
+	width:10%;
+	height:90%;
+	overflow:hidden;
+}
+
+
+#menu-ul{
+	margin:0;
+	padding:0;
+	width:90%;
+	height:100px;
+	 display: inline-block;
+	 margin: 0 auto;
+}
+
+#menu-ul li{
+    position:relative;
+    float:left;
+    list-style:none;
+    top:40%;
+    width:9.09%;
+}
+
+#menu-ul li a{
+
+font-size:0.8em;
+text-decoration:none;
+color:#777;
+}
+
+#menu-ul li a figure{
+margin:0;
+text-align:center;
+}
+
+#menu-ul li a figure figcaption{ display:none;}
+
+
+#Settings:target #menu-items{margin-left:0;}
+#Settings_p0:target .pages{top:0;}
+#Settings_p1:target .pages{top:-100%;}
+
+#Settings_p0:target #Settings_b0{background-color:blue;}
+#Settings_p1:target #Settings_b1{background-color:blue;}
+#Settings_p1:target #Settings_b0{background-color:lightblue;}
+
+#Accessories:target #menu-items{margin-left:-100%;}
+#Accessories_p0:target .pages{top:0;}
+#Accessories_p0:target #menu-items{margin-left:-100%;}
+#Accessories_p1:target .pages{top:-100%;}
+#Accessories_p1:target #menu-items{margin-left:-100%;}
+
+#Accessories_p0:target #Accessories_b0{background-color:blue;}
+#Accessories_p1:target #Accessories_b1{background-color:blue;}
+#Accessories_p1:target #Accessories_b0{background-color:lightblue;}
+
+body #menu #Development:target #menu-items{margin-left:-200%;}
+body #menu #Education:target #menu-items{margin-left:-300%;}
+
+#Games:target #menu-items{margin-left:-400%;}
+#Games_p0:target .pages{top:0;}
+#Games_p0:target #menu-items{margin-left:-400%;}
+#Games_p1:target .pages{top:-100%;}
+#Games_p1:target #menu-items{margin-left:-400%;}
+
+#Games_p0:target #Games_b0{background-color:blue;}
+#Games_p1:target #Games_b1{background-color:blue;}
+#Games_p1:target #Games_b0{background-color:lightblue;}
+
+
+body #menu #Graphics:target #menu-items{margin-left:-500%;}
+body #menu #Multimedia:target #menu-items{margin-left:-600%;}
+body #menu #Network:target #menu-items{margin-left:-700%;}
+body #menu #Office:target #menu-items{margin-left:-800%;}
+
+body #menu #System:target #menu-items{margin-left:-900%;}
+#System_p0:target .pages{top:0;}
+#System_p0:target #menu-items{margin-left:-900%;}
+#System_p1:target .pages{top:-100%;}
+#System_p1:target #menu-items{margin-left:-900%;}
+
+#System_p0:target #System_b0{background-color:blue;}
+#System_p1:target #System_b1{background-color:blue;}
+#System_p1:target #System_b0{background-color:lightblue;}
+
+body #menu #Other:target #menu-items{margin-left:-1000%;}
+
+
+#menu-items{
+	width:1000%;
+	height:90%;
+	overflow:hidden;
+    transition:margin-left 0.25s ease-out;
+}
+
+.menu-item{
+	float:left;
+	width:10%;
+    height:100%;
+    text-align:center;
+}
+
+.background-page{
+	position:relative;
+	width:100%;
+	height:90%;
+	overflow:hidden;
+}
+
+.pages{
+	position:absolute;
+	top:0;
+	text-align:center;
+	width:100%;
+	height:200%;
+	transition:top 0.25s ease-out;
+}
+
+.page-ul{
+position:relative;
+	list-style-type:none;
+	width:80%;
+	margin: auto;
+	display:grid;
+	height:50%;
+	padding:0;
+	grid-template-columns: 16.7% 16.7% 16.7% 16.7% 16.7% 16.7%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.page-ul li{
+padding:10px;
+	}
+	
+.page-ul li figure{
+padding:0;
+margin:0;
+	}
+
+.page-ul li figure figcaption{
+padding:0;
+margin-top:-10px;
+	}
+
+
+
+.menu-page-ul{
+width:100%;
+height:10%;
+list-style-type:none;
+text-align:center;
+padding:0;
+}
+
+.menu-page-ul li{
+width:20%;
+height:100%;
+display:inline-block;
+}
+
+.menu-page-ul li a{
+display:block;
+width:60%;
+height:10px;
+margin: 5% auto;
+background-color:pink;
+filter: blur(2px); 
+transition:background-color 0.25s ease-out;
+}
+
+.menu-page-ul li:nth-child(1) a{
+	background-color:red;
+}
+
+
+.appComment{
+	display:none;
+}
+
+.appName{
+font-size:0.8em;
+height:1.1em;
+overflow:hidden;
+text-overflow: ellipsis;
+transition:height 10s ease-out;
+}
+
+.page-ul li:hover > figure figcaption .appName{
+transition:height 0.25s ease-out;
+height:5em;
+}
+
+
+
+
+
+
+
+
+
+
+
