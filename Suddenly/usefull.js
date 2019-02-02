@@ -53,12 +53,14 @@ _ = {
             return false;
         },
 
-        localAbsFile : (req,res) => {
+        localAbsFile : (url,res) => {
 
-            const ext = path.parse(req.url).ext;
-            console.log(ext,' ',exports.mimeType[ext]);
-                fs.readFile(req.url, null, function(error, content) {
-                                res.writeHead(200, {"Content-Type": exports.mimeType[ext]});
+            const ext = path.parse(url).ext;
+           const mime = ext !== 'undefined' ? exports.mimeType[ext] : 'image';
+            //console.log(ext,' ',exports.mimeType[ext]);
+                fs.readFile(url, null, function(error, content) {
+								
+                                res.writeHead(200, {"Content-Type": exports.mimeType[ext] ? exports.mimeType[ext] : 'image' });
                                 res.end(content);
                         });
         },
@@ -98,10 +100,10 @@ _ = {
             
            // console.log(a.replace(/^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?/g));
         
-        /*    a = a.replace(/["|(]\/\/[^"|^)]+?["|)]/g, (r) => {
+            a = a.replace(/["|(]\/\/[^"|^)]+?["|)]/g, (r) => {
                 
                 return r.replace('//','http://');
-            });*/
+            });
            // console.log(a.match(/"\/\/[^"]+?"/g));
             return a.replace(/["|'|x22=\(] *http[s]? *: *[^"|^']+?[,|"|'|x22|\)]/gi, (r) => {
                     let t = null;
