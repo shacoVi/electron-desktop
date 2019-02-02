@@ -44,28 +44,12 @@ function classify_appsByCategory(callback){
 								case 'Icon' : appIcon = variable[1]; break;
 							}
 					}); 
-
 					var iconLocation = null;
 					if(iconLocation === null){
 						var filesIcon = fs.readdirSync('/usr/share/icons/elementary-xfce/apps/48');
 						filesIcon.forEach(fileIcon => {
 							if(fileIcon.split('.')[0] === appIcon)
 								iconLocation = '/usr/share/icons/elementary-xfce/apps/48/'+fileIcon;
-						});
-					}
-					if(iconLocation === null){
-						var filesIcon = fs.readdirSync('/usr/share/icons/Pepirus/64x64/apps');
-						filesIcon.forEach(fileIcon => {
-							if(fileIcon.split('.')[0] === appIcon)
-								iconLocation = '/usr/share/icons/Pepirus/64x64/apps/'+fileIcon;
-						});
-					}
-
-					if(iconLocation === null){
-						var filesIcon = fs.readdirSync('/usr/share/icons/Peppermix/48x48/apps/');
-						filesIcon.forEach(fileIcon => {
-							if(fileIcon.split('.')[0] === appIcon)
-								iconLocation = '/usr/share/icons/Peppermix/48x48/apps/'+fileIcon;
 						});
 					}
 					if(iconLocation === null){
@@ -76,38 +60,10 @@ function classify_appsByCategory(callback){
 						});
 					}
 					if(iconLocation === null){
-						var filesIcon = fs.readdirSync('/usr/share/icons/Numix-Circle/48/apps');
-						filesIcon.forEach(fileIcon => {
-							if(fileIcon.split('.')[0] === appIcon)
-								iconLocation = '/usr/share/icons/Numix-Circle/48/apps/'+fileIcon;
-						});
-					}
-					if(iconLocation === null){
 						var filesIcon = fs.readdirSync('/usr/share/icons/elementary-xfce/devices/48/');
 						filesIcon.forEach(fileIcon => {
 							if(fileIcon.split('.')[0] === appIcon)
 								iconLocation = '/usr/share/icons/elementary-xfce/devices/48/'+fileIcon;
-						});
-					}
-					if(iconLocation === null){
-						var filesIcon = fs.readdirSync('/usr/share/icons/elementary-xfce/places/48');
-						filesIcon.forEach(fileIcon => {
-							if(fileIcon.split('.')[0] === appIcon)
-								iconLocation = '/usr/share/icons/elementary-xfce/places/48/'+fileIcon;
-						});
-					}
-					if(iconLocation === null){
-						var filesIcon = fs.readdirSync('/usr/share/icons/elementary-xfce/mimes/48');
-						filesIcon.forEach(fileIcon => {
-							if(fileIcon.split('.')[0] === appIcon)
-								iconLocation = '/usr/share/icons/elementary-xfce/mimes/48/'+fileIcon;
-						});
-					}
-					if(iconLocation === null){
-						var filesIcon = fs.readdirSync('/usr/share/icons/hicolor/48x48/apps');
-						filesIcon.forEach(fileIcon => {
-							if(fileIcon.split('.')[0] === appIcon)
-								iconLocation = '/usr/share/icons/hicolor/48x48/apps/'+fileIcon;
 						});
 					}
 					if(iconLocation === null){
@@ -124,13 +80,12 @@ function classify_appsByCategory(callback){
 								iconLocation = '/usr/share/icons/hicolor/scalable/devices/'+fileIcon;
 						});
 					}
-					
 					for( let i=0; i < appCategories.length; i++){
 						categories[appCategories[i]].push(
 							{
 								'Name':appName,
 								'Comment':appComment,
-								'Icon':{  Name : appIcon, Location : (iconLocation === null) ? appIcon : iconLocation  }
+								'Icon':{  Name : appIcon, Location : (iconLocation === null) ? '/'+appIcon : iconLocation  }
 							});
 					}
 					
@@ -176,7 +131,7 @@ function render_directory(name,dir,lang){
 					return '			<li>\n'+
 					'				<a href="#'+name+'">\n'+
 					'					<figure>\n'+
-					'						<img width="30" src="/local'+iconLocation+'"/><figcaption>'+appName+'</figcaption>\n'+
+					'						<img width="30" src="/local:'+iconLocation+'"/><figcaption>'+appName+'</figcaption>\n'+
 					'					</figure>\n'+
 					'				</a>\n'+
 					'			</li>\n';
@@ -229,19 +184,35 @@ html += '<div id="menu">\n';
 					for(let j=0; j< skel[i].items.length; j++)
 						html += '	<div id="'+skel[i].name+'_p'+j+'">\n';
 				}
+				html += '<div id="contextual-hide">\n';
 				html += '<div id="contextual-fs">\n';
 				html += '<div id="contextual-ls">\n';
-
-				html += '		<div id="wraper">\n';
+				html += '<div id="wraper">\n';
 				html += '			<div id="contextual">\n';
-				html += ' 				<iframe id="iframe" src="gptbico"></iframe>\n';
-				html += '				<a href="#contextual-fs"><div id="contextual-fs-icon"></div></a>';
-				html += '				<a href="#contextual-ls"><div id="contextual-ls-icon"></div></a>';
+				html += '				<div id="contextual-icons">\n';
+				
+				html += '					<a href="#contextual-fs"><div id="contextual-fs-icon"></div></a>\n';
+				html += '					<a href="#contextual-ls"><div id="contextual-ls-icon"></div></a>\n';
+				html += '					<a href="#contextual-hide"><div id="contextual-hide-icon"></div></a>\n';
+				
+				html += '				</div>\n';
+				html += '				<ul id="iframe-ul">\n';
+				html += '					<li>\n';
+				html += ' 						<iframe class="iframe" src="/gptbica"></iframe>\n';
+				html += '						<img width="30" src="/gptbico/favicon.ico">\n';
+				html += '					</li>\n';
+				html += '					<li>\n';
+				html += ' 						<iframe class="iframe" src="/ytoubet"></iframe>\n';
+				html += '					</li>\n';
+				html += '					<li>\n';
+				html += ' 						<iframe class="iframe" src="/gpdtroi"></iframe>\n';
+				html += '					</li>\n';
+				html += '				</ul>\n';
+
 				html += '			</div>\n';
-				html += '			<div id="menu-wraper">\n';
+				html += '		<div id="menu-wraper">\n';
 				
 				html += '		<ul id="menu-ul">\n';
-				html += '<li><a href="#wraper"><figure><img width="30" src="gptbico/favicon.ico"></figure></a></li>\n';
 				for( let i=0; i < skel.length; i++ )
 					html += render_directory(skel[i].name, skel[i].directory ,'fr');
 				
@@ -267,7 +238,7 @@ html += '<div id="menu">\n';
 							
 							let item = skel[i].items[j][k];
 							
-							html += '								<li><figure><img width="48" height="48" src="/local' + item.Icon.Location +'">'+
+							html += '								<li><figure><img width="48" height="48" src="/local:' + item.Icon.Location +'">'+
 								'<figcaption>'+
 								'<p class="appName">'+ item.Name + '</p></figcaption></figure>'+
 								'<p class="appComment">' + item.Comment + '</p>' +'</li>\n';
